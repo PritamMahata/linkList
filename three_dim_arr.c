@@ -16,10 +16,8 @@ int main()
             {
                 printf("The Element of x[%d][%d][%d] = %d",i,j,k,x[i][j][k]);
                 printf("\n");
-            }
-            
+            }   
         }
-        
     }
     return 0;
 }
