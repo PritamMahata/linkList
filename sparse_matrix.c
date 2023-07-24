@@ -37,6 +37,20 @@ int main()
     // dispaly the matrix
     for (int i = 0; i < 3; i++)
     {
+        // for better understanding{
+        if (i == 0)
+        {
+            printf("ROW\t");
+        }
+        else if (i == 1)
+        {
+            printf("COLUMN\t");
+        }
+        else if (i == 2)
+        {
+            printf("DATA\t");
+        }
+        // }
         for (int j = 0; j < size; j++)
         {
             printf("%d", matrix[i][j]);
