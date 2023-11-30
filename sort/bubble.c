@@ -7,7 +7,6 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
-    //    bubble sort
     printf("\narray before shorting\n");
     for (int i = 0; i < 5; i++)
     {
